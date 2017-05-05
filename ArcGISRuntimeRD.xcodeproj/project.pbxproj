@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B4D1FE21EBD0F130074E430 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4D1FE11EBD0F130074E430 /* AppDelegate.swift */; };
+		6B4D1FE41EBD0F130074E430 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4D1FE31EBD0F130074E430 /* ViewController.swift */; };
+		6B4D1FE71EBD0F130074E430 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B4D1FE51EBD0F130074E430 /* Main.storyboard */; };
+		6B4D1FE91EBD0F130074E430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B4D1FE81EBD0F130074E430 /* Assets.xcassets */; };
+		6B4D1FEC1EBD0F130074E430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B4D1FEA1EBD0F130074E430 /* LaunchScreen.storyboard */; };
+		6B4D1FF71EBD0F140074E430 /* ArcGISRuntimeRDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4D1FF61EBD0F140074E430 /* ArcGISRuntimeRDTests.swift */; };
+		6B4D20021EBD0F140074E430 /* ArcGISRuntimeRDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4D20011EBD0F140074E430 /* ArcGISRuntimeRDUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B4D1FF31EBD0F140074E430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B4D1FD61EBD0F120074E430 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B4D1FDD1EBD0F120074E430;
+			remoteInfo = ArcGISRuntimeRD;
+		};
+		6B4D1FFE1EBD0F140074E430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B4D1FD61EBD0F120074E430 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B4D1FDD1EBD0F120074E430;
+			remoteInfo = ArcGISRuntimeRD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B4D1FDE1EBD0F130074E430 /* ArcGISRuntimeRD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcGISRuntimeRD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B4D1FE11EBD0F130074E430 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B4D1FE31EBD0F130074E430 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B4D1FE61EBD0F130074E430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B4D1FE81EBD0F130074E430 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B4D1FEB1EBD0F130074E430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B4D1FED1EBD0F140074E430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B4D1FF21EBD0F140074E430 /* ArcGISRuntimeRDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcGISRuntimeRDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B4D1FF61EBD0F140074E430 /* ArcGISRuntimeRDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcGISRuntimeRDTests.swift; sourceTree = "<group>"; };
+		6B4D1FF81EBD0F140074E430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B4D1FFD1EBD0F140074E430 /* ArcGISRuntimeRDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcGISRuntimeRDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B4D20011EBD0F140074E430 /* ArcGISRuntimeRDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcGISRuntimeRDUITests.swift; sourceTree = "<group>"; };
+		6B4D20031EBD0F140074E430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B4D1FDB1EBD0F120074E430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B4D1FEF1EBD0F140074E430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B4D1FFA1EBD0F140074E430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B4D1FD51EBD0F120074E430 = {
+			isa = PBXGroup;
+			children = (
+				6B4D1FE01EBD0F130074E430 /* ArcGISRuntimeRD */,
+				6B4D1FF51EBD0F140074E430 /* ArcGISRuntimeRDTests */,
+				6B4D20001EBD0F140074E430 /* ArcGISRuntimeRDUITests */,
+				6B4D1FDF1EBD0F130074E430 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B4D1FDF1EBD0F130074E430 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B4D1FDE1EBD0F130074E430 /* ArcGISRuntimeRD.app */,
+				6B4D1FF21EBD0F140074E430 /* ArcGISRuntimeRDTests.xctest */,
+				6B4D1FFD1EBD0F140074E430 /* ArcGISRuntimeRDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B4D1FE01EBD0F130074E430 /* ArcGISRuntimeRD */ = {
+			isa = PBXGroup;
+			children = (
+				6B4D1FE11EBD0F130074E430 /* AppDelegate.swift */,
+				6B4D1FE31EBD0F130074E430 /* ViewController.swift */,
+				6B4D1FE51EBD0F130074E430 /* Main.storyboard */,
+				6B4D1FE81EBD0F130074E430 /* Assets.xcassets */,
+				6B4D1FEA1EBD0F130074E430 /* LaunchScreen.storyboard */,
+				6B4D1FED1EBD0F140074E430 /* Info.plist */,
+			);
+			path = ArcGISRuntimeRD;
+			sourceTree = "<group>";
+		};
+		6B4D1FF51EBD0F140074E430 /* ArcGISRuntimeRDTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B4D1FF61EBD0F140074E430 /* ArcGISRuntimeRDTests.swift */,
+				6B4D1FF81EBD0F140074E430 /* Info.plist */,
+			);
+			path = ArcGISRuntimeRDTests;
+			sourceTree = "<group>";
+		};
+		6B4D20001EBD0F140074E430 /* ArcGISRuntimeRDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B4D20011EBD0F140074E430 /* ArcGISRuntimeRDUITests.swift */,
+				6B4D20031EBD0F140074E430 /* Info.plist */,
+			);
+			path = ArcGISRuntimeRDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B4D1FDD1EBD0F120074E430 /* ArcGISRuntimeRD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B4D20061EBD0F140074E430 /* Build configuration list for PBXNativeTarget "ArcGISRuntimeRD" */;
+			buildPhases = (
+				6B4D1FDA1EBD0F120074E430 /* Sources */,
+				6B4D1FDB1EBD0F120074E430 /* Frameworks */,
+				6B4D1FDC1EBD0F120074E430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcGISRuntimeRD;
+			productName = ArcGISRuntimeRD;
+			productReference = 6B4D1FDE1EBD0F130074E430 /* ArcGISRuntimeRD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B4D1FF11EBD0F140074E430 /* ArcGISRuntimeRDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B4D20091EBD0F140074E430 /* Build configuration list for PBXNativeTarget "ArcGISRuntimeRDTests" */;
+			buildPhases = (
+				6B4D1FEE1EBD0F140074E430 /* Sources */,
+				6B4D1FEF1EBD0F140074E430 /* Frameworks */,
+				6B4D1FF01EBD0F140074E430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B4D1FF41EBD0F140074E430 /* PBXTargetDependency */,
+			);
+			name = ArcGISRuntimeRDTests;
+			productName = ArcGISRuntimeRDTests;
+			productReference = 6B4D1FF21EBD0F140074E430 /* ArcGISRuntimeRDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B4D1FFC1EBD0F140074E430 /* ArcGISRuntimeRDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B4D200C1EBD0F140074E430 /* Build configuration list for PBXNativeTarget "ArcGISRuntimeRDUITests" */;
+			buildPhases = (
+				6B4D1FF91EBD0F140074E430 /* Sources */,
+				6B4D1FFA1EBD0F140074E430 /* Frameworks */,
+				6B4D1FFB1EBD0F140074E430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B4D1FFF1EBD0F140074E430 /* PBXTargetDependency */,
+			);
+			name = ArcGISRuntimeRDUITests;
+			productName = ArcGISRuntimeRDUITests;
+			productReference = 6B4D1FFD1EBD0F140074E430 /* ArcGISRuntimeRDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B4D1FD61EBD0F120074E430 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Alexandra Lifa";
+				TargetAttributes = {
+					6B4D1FDD1EBD0F120074E430 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2N8B9ZL63N;
+						ProvisioningStyle = Automatic;
+					};
+					6B4D1FF11EBD0F140074E430 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2N8B9ZL63N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6B4D1FDD1EBD0F120074E430;
+					};
+					6B4D1FFC1EBD0F140074E430 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2N8B9ZL63N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6B4D1FDD1EBD0F120074E430;
+					};
+				};
+			};
+			buildConfigurationList = 6B4D1FD91EBD0F120074E430 /* Build configuration list for PBXProject "ArcGISRuntimeRD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B4D1FD51EBD0F120074E430;
+			productRefGroup = 6B4D1FDF1EBD0F130074E430 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B4D1FDD1EBD0F120074E430 /* ArcGISRuntimeRD */,
+				6B4D1FF11EBD0F140074E430 /* ArcGISRuntimeRDTests */,
+				6B4D1FFC1EBD0F140074E430 /* ArcGISRuntimeRDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B4D1FDC1EBD0F120074E430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B4D1FEC1EBD0F130074E430 /* LaunchScreen.storyboard in Resources */,
+				6B4D1FE91EBD0F130074E430 /* Assets.xcassets in Resources */,
+				6B4D1FE71EBD0F130074E430 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B4D1FF01EBD0F140074E430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B4D1FFB1EBD0F140074E430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B4D1FDA1EBD0F120074E430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B4D1FE41EBD0F130074E430 /* ViewController.swift in Sources */,
+				6B4D1FE21EBD0F130074E430 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B4D1FEE1EBD0F140074E430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B4D1FF71EBD0F140074E430 /* ArcGISRuntimeRDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B4D1FF91EBD0F140074E430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B4D20021EBD0F140074E430 /* ArcGISRuntimeRDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B4D1FF41EBD0F140074E430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B4D1FDD1EBD0F120074E430 /* ArcGISRuntimeRD */;
+			targetProxy = 6B4D1FF31EBD0F140074E430 /* PBXContainerItemProxy */;
+		};
+		6B4D1FFF1EBD0F140074E430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B4D1FDD1EBD0F120074E430 /* ArcGISRuntimeRD */;
+			targetProxy = 6B4D1FFE1EBD0F140074E430 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B4D1FE51EBD0F130074E430 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B4D1FE61EBD0F130074E430 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B4D1FEA1EBD0F130074E430 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B4D1FEB1EBD0F130074E430 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B4D20041EBD0F140074E430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B4D20051EBD0F140074E430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B4D20071EBD0F140074E430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2N8B9ZL63N;
+				INFOPLIST_FILE = ArcGISRuntimeRD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexandraLifa.ArcGISRuntimeRD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6B4D20081EBD0F140074E430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2N8B9ZL63N;
+				INFOPLIST_FILE = ArcGISRuntimeRD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexandraLifa.ArcGISRuntimeRD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6B4D200A1EBD0F140074E430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2N8B9ZL63N;
+				INFOPLIST_FILE = ArcGISRuntimeRDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexandraLifa.ArcGISRuntimeRDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcGISRuntimeRD.app/ArcGISRuntimeRD";
+			};
+			name = Debug;
+		};
+		6B4D200B1EBD0F140074E430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2N8B9ZL63N;
+				INFOPLIST_FILE = ArcGISRuntimeRDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexandraLifa.ArcGISRuntimeRDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcGISRuntimeRD.app/ArcGISRuntimeRD";
+			};
+			name = Release;
+		};
+		6B4D200D1EBD0F140074E430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2N8B9ZL63N;
+				INFOPLIST_FILE = ArcGISRuntimeRDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexandraLifa.ArcGISRuntimeRDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ArcGISRuntimeRD;
+			};
+			name = Debug;
+		};
+		6B4D200E1EBD0F140074E430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2N8B9ZL63N;
+				INFOPLIST_FILE = ArcGISRuntimeRDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlexandraLifa.ArcGISRuntimeRDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ArcGISRuntimeRD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B4D1FD91EBD0F120074E430 /* Build configuration list for PBXProject "ArcGISRuntimeRD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B4D20041EBD0F140074E430 /* Debug */,
+				6B4D20051EBD0F140074E430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B4D20061EBD0F140074E430 /* Build configuration list for PBXNativeTarget "ArcGISRuntimeRD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B4D20071EBD0F140074E430 /* Debug */,
+				6B4D20081EBD0F140074E430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6B4D20091EBD0F140074E430 /* Build configuration list for PBXNativeTarget "ArcGISRuntimeRDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B4D200A1EBD0F140074E430 /* Debug */,
+				6B4D200B1EBD0F140074E430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6B4D200C1EBD0F140074E430 /* Build configuration list for PBXNativeTarget "ArcGISRuntimeRDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B4D200D1EBD0F140074E430 /* Debug */,
+				6B4D200E1EBD0F140074E430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B4D1FD61EBD0F120074E430 /* Project object */;
+}
