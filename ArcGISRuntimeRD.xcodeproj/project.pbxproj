@@ -11,6 +11,7 @@
 		4B2A6E714F0005B9C4E301FF /* Pods_ArcGISRuntimeRDUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F754C4BF731E2BDC43CE442 /* Pods_ArcGISRuntimeRDUITests.framework */; };
 		5F54E659CA1CADF86BB02FE5 /* Pods_ArcGISRuntimeRD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79887C8F9077B4515E60F964 /* Pods_ArcGISRuntimeRD.framework */; };
 		6B1BF7B91EBD18FA009E3888 /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6B1BF7B81EBD18FA009E3888 /* ArcGIS.bundle */; };
+		6B1BF7BA1EBD3288009E3888 /* ArcGIS.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1BF7B81EBD18FA009E3888 /* ArcGIS.bundle */; };
 		6B4D1FE21EBD0F130074E430 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4D1FE11EBD0F130074E430 /* AppDelegate.swift */; };
 		6B4D1FE41EBD0F130074E430 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4D1FE31EBD0F130074E430 /* ViewController.swift */; };
 		6B4D1FE71EBD0F130074E430 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B4D1FE51EBD0F130074E430 /* Main.storyboard */; };
@@ -69,6 +70,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F54E659CA1CADF86BB02FE5 /* Pods_ArcGISRuntimeRD.framework in Frameworks */,
+				6B1BF7BA1EBD3288009E3888 /* ArcGIS.bundle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,6 +557,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -597,6 +600,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -612,7 +616,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AlexandraLifa.ArcGISRuntimeRD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Debug;
 		};
@@ -626,7 +630,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AlexandraLifa.ArcGISRuntimeRD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Release;
 		};

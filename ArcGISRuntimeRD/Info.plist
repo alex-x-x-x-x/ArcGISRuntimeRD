@@ -28,6 +28,10 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Trip Planner wants to use your location to provide accurate data</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Trip Planner wants to use your location to provide accurate data</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
