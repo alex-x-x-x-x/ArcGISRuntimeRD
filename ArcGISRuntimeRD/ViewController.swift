@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import Foundation
+import ArcGIS
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var mapView: AGSMapView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // Display a map using the ArcGIS Online imagery basemap service
+        self.mapView.map = AGSMap(basemapType: .imageryWithLabelsVector, latitude: 33.7490, longitude: -84.3880, levelOfDetail: 17)
     }
 
     override func didReceiveMemoryWarning() {
